@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/panel.github.io/assets/favicon.17e50649.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Админ Панель</title>
-  <script type="module" crossorigin src="/panel.github.io/assets/index.7c62b9a4.js"></script>
-  <link rel="stylesheet" href="/panel.github.io/assets/index.1804ade6.css">
+  <script type="module" crossorigin src="/panel.github.io/assets/index.fd78951e.js"></script>
+  <link rel="stylesheet" href="/panel.github.io/assets/index.4f0c01b4.css">
 </head>
   <body class="flex min-h-screen ">
     <div class="fixed z-10 flex flex-col w-full min-h-screen transform -translate-x-full bg-white border-r border-black sidebar sm:w-72 xlg:translate-x-0 ">
@@ -43,7 +43,7 @@
             <li><a href="#">Бонусы для салона</a></li>
           </ul>
         </div>
-        <a href="#" class="mt-10 ml-6 text-lg">Управление</a>
+        <a href="#" class="ml-6 text-xs sm:text-lg sm:mt-10">Управление</a>
       </div>
     </div>
     <main class="flex flex-col flex-1 xlg:ml-72">
@@ -54,8 +54,8 @@
         <button class="w-20 border border-black h-9 bg-rose focus:outline-none"><span class="text-white">Вход</span></button>
       </div>
       <div class="flex flex-col px-1 py-5 md:px-5 xl:px-11 xl:py-9">
-        <nav class="sticky top-0 flex py-5 bg-white sm:py-0 sm:h-20 ">
-          <ul class="flex flex-col items-center justify-between w-full space-y-3 text-xl font-medium sm:flex-row sm:space-y-0"> 
+        <nav class="sticky top-0 hidden py-5 bg-white sm:flex sm:py-0 sm:h-20 ">
+          <ul class="flex items-center justify-between w-full space-y-3 text-xl font-medium sm:space-y-0"> 
             <li><a href="#">Главная</a></li>
             <li><a href="#">Каталог</a></li>
             <li><a href="#">Информация</a></li>
@@ -74,32 +74,31 @@
         <h2 class="mt-10 text-4xl font-medium text-center ">Программа лояльности</h2>
         <div class="flex flex-col w-full mx-auto mt-16 text-center border border-black md:w-11/12 xl:w-2/3">
           <div class="flex border-b h-28">
-            <div class="flex items-center justify-center flex-1 text-lg font-medium border-r "><span>Уровень программы лояльности</span></div>
-            <div class="flex items-center justify-center flex-1 text-lg font-medium border-r "><span>Оборот за квартал</span></div>
-            <div class="flex items-center justify-center flex-1 text-lg font-medium"><span>Бонус (1 балл = 1 рубль)</span></div>
+            <div class="flex items-center justify-center flex-1 font-medium border-r sm:text-lg "><span>Уровень программы лояльности</span></div>
+            <div class="flex items-center justify-center flex-1 font-medium border-r sm:text-lg "><span>Оборот за квартал</span></div>
+            <div class="flex items-center justify-center flex-1 font-medium sm:text-lg"><span>Бонус (1 балл = 1 рубль)</span></div>
           </div>
           <div class="flex h-20 border-b">
-            <div class="flex items-center justify-center flex-1 border-r">Salon Expert ***</div>
-            <div class="flex items-center justify-center flex-1 border-r">> 300 000 руб.</div>
-            <div class="flex items-center justify-center flex-1 ">6%</div>
-          </div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">Salon Expert ***</div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">> 300 000 руб.</div>
+            <div class="flex items-center justify-center flex-1 text-sm sm:text-base ">6%</div>
+          </div> 
           <div class="flex h-20 border-b">
-            <div class="flex items-center justify-center flex-1 border-r">Salon Expert **</div>
-            <div class="flex items-center justify-center flex-1 border-r">> 210 000 руб.</div>
-            <div class="flex items-center justify-center flex-1 ">4%</div>
-          </div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">Salon Expert **</div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">> 210 000 руб.</div>
+            <div class="flex items-center justify-center flex-1 text-sm sm:text-base ">4%</div>
+          </div> 
           <div class="flex h-20 border-b">
-            <div class="flex items-center justify-center flex-1 border-r">Salon Expert *</div>
-            <div class="flex items-center justify-center flex-1 border-r">> 150 000 руб.</div>
-            <div class="flex items-center justify-center flex-1 ">3%</div>
-          </div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">Salon Expert *</div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">> 150 000 руб.</div>
+            <div class="flex items-center justify-center flex-1 text-sm sm:text-base ">3%</div>
+          </div> 
           <div class="flex h-20">
-            <div class="flex items-center justify-center flex-1 border-r">Salon Partner</div>
-            <div class="flex items-center justify-center flex-1 border-r">> 60 000 руб.</div>
-            <div class="flex items-center justify-center flex-1 ">2%</div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">Salon Partner</div>
+            <div class="flex items-center justify-center flex-1 text-sm border-r sm:text-base">> 60 000 руб.</div>
+            <div class="flex items-center justify-center flex-1 text-sm sm:text-base ">2%</div>
           </div>
         </div>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero quibusdam et sed error itaque sint ab necessitatibus illum. Illo modi quam excepturi recusandae, voluptates voluptatibus provident ipsam sit eligendi atque magnam in dolorum quis nam corporis animi. Dolorum deserunt aliquam inventore soluta distinctio dicta error dolor. Ipsa dolores architecto explicabo ullam vitae ipsum labore debitis quo ea numquam veniam non fugit perspiciatis tenetur, harum adipisci provident suscipit, quae accusantium nobis, doloremque maxime corrupti. Iusto amet quibusdam mollitia sapiente expedita neque molestias minus magnam, unde, animi iure voluptatum laudantium fugit iste! Repudiandae quis nesciunt officiis iste quae qui temporibus debitis repellendus sequi molestiae! Dicta illum nisi officia possimus voluptatum tenetur dignissimos saepe, odit minima quaerat vero recusandae repellat dolorem iste officiis inventore pariatur cum consequatur nulla laborum unde. Deserunt minus sed eaque soluta in obcaecati sint. Officiis, deserunt. Sed dolores mollitia nihil est eius nam repudiandae deserunt, nobis debitis perferendis nesciunt? Reiciendis alias fugiat molestiae deleniti optio sit adipisci! Esse, quasi. Ea, amet sequi rem fugit tenetur molestias nesciunt assumenda dicta nemo quos dolorem autem adipisci inventore voluptatem laudantium id tempora ab. Veniam vel, suscipit, expedita voluptatibus numquam odio, totam odit quod dignissimos ea nam nobis modi doloribus dolorem. Facilis possimus sit magni praesentium maiores cumque unde excepturi magnam inventore expedita? Ratione quod reprehenderit autem non, minus praesentium voluptate perferendis repellendus harum? Perferendis esse sint, earum a ipsa non qui doloribus nemo vero dolorem quidem blanditiis debitis iste eligendi placeat molestias molestiae! Iste alias est aspernatur. Explicabo libero amet dignissimos! Maxime nemo ea quis, voluptatibus itaque nostrum non facere. Omnis repellendus facere reiciendis voluptas, ullam quam fuga eum beatae, sed quo vel praesentium aut, ab officia? Accusantium harum eos sed. Labore perspiciatis consectetur incidunt dolorem inventore eius nihil, similique temporibus laudantium earum? Itaque assumenda repudiandae ullam architecto laborum neque, sint quam, molestiae veniam minus laudantium amet perspiciatis facilis quaerat recusandae inventore accusamus at quisquam provident quae ex voluptate tenetur? Quam maiores quidem dolores ea sapiente earum rerum doloremque, numquam in saepe praesentium expedita ex qui dolorum alias. Aspernatur, beatae architecto magni facere numquam ullam quos consequuntur, aliquid et, possimus quaerat vel. Commodi labore dicta cum tempora cupiditate esse magni odio tenetur odit rerum sint nam repudiandae dolores ducimus maxime laborum officiis, error reiciendis! Ab aut perferendis ullam inventore tempore tenetur molestiae fuga, dicta molestias similique animi temporibus nesciunt vero magni laudantium! Adipisci unde expedita dolorem quidem impedit atque, maxime dolores enim ipsam repellat, laborum consequuntur numquam illo sapiente vero consectetur ratione nobis! Similique harum ab suscipit atque eius animi et impedit veniam fugiat asperiores fugit debitis praesentium omnis unde cumque mollitia voluptas nam accusantium, nesciunt repudiandae blanditiis doloribus! Assumenda incidunt enim rem hic vero possimus voluptate voluptatum beatae, laborum, provident dignissimos!</p>
       </div>
     </main>
 
