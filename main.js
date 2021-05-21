@@ -20,7 +20,22 @@ sidebar = document.querySelector('.sidebar'),
 main = document.querySelector('main');
 
 menuBtn.onclick = () => {
-    menuBtn.classList.toggle('opened')
-    sidebar.classList.toggle('-translate-x-full')
-    menuBtn.classList.contains('opened') ? main.style.marginLeft = '0' : main.style.marginLeft = '300px'
+    if (window.innerWidth >= 1440) {
+        sidebar.classList.toggle('xlg:translate-x-0')
+        main.classList.toggle('xlg:ml-72')
+    } else {
+        sidebar.classList.toggle('-translate-x-full')
+
+        if (window.innerWidth >= 640 && window.innerWidth < 1440) {
+            menuBtn.classList.toggle('ml-72')
+        }
+
+        if (window.innerWidth < 640) {
+            menuBtn.classList.toggle('fixed')
+            menuBtn.classList.toggle('z-10')
+            menuBtn.classList.toggle('right-5')
+            menuBtn.classList.toggle('open')
+        }
+    }
 }
+

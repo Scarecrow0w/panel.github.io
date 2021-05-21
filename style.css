@@ -4,11 +4,6 @@
 
 .sidebar, main {
     transition: all 0.25s;
-
-}
-
-.sidebar {
-    width: 300px;
 }
 
 a {
@@ -16,7 +11,7 @@ a {
 }
 
 .categories ul {
-    @apply flex flex-col pl-3 mt-1 text-lg
+    @apply flex flex-col pl-3 mt-2 sm:mt-1 text-lg space-y-2 sm:space-y-0
 }
 
 .categories h3 {
@@ -25,10 +20,6 @@ a {
 
 .categories div {
     @apply flex flex-col p-3
-}
-
-main {
-    margin-left: 300px;
 }
 
 /* HAMBURGER MENU START */
@@ -63,7 +54,7 @@ transform: translateY(-5px);
 transform: translateY(3px);
 }
 
-/* .open {
+.open {
 transform: rotate(90deg);
 transform: translateY(-1px);
 }
@@ -78,6 +69,6 @@ transform:
 transform:
     rotate(-45deg)
     translateY(0px);
-} */
+}
 
 /* HAMBURGER MENU END */

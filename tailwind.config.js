@@ -5,11 +5,11 @@ module.exports = {
     extend: {
       screens: {
         'xlg': '1440px'
+      },
+      colors: {
+        rose: '#F2DDDE'
       }
     },
-    colors: {
-      rose: '#F2DDDE'
-    }
   },
   variants: {
     extend: {},
