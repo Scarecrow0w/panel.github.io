@@ -1,1 +1,0 @@
-let e=document.querySelector("#menuBtn"),t=document.querySelector(".sidebar"),l=document.querySelector("main");e.onclick=()=>{e.classList.toggle("opened"),t.classList.toggle("-translate-x-full"),e.classList.contains("opened")?l.style.marginLeft="0":l.style.marginLeft="300px"};
