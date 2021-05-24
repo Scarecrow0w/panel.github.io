@@ -109,3 +109,7 @@ transform:
 .card:hover {
     box-shadow: 10px 7px #F2DDDE;
 }
+
+.filters a {
+    @apply flex items-center justify-center px-3 py-2 text-sm bg-gray-100 rounded-3xl 
+}

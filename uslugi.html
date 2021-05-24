@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Админ Панель | Услуги</title>
+    <script src="./fonts/fontawesome-free/js/brands.js"></script>
+    <script src="./fonts/fontawesome-free/js/solid.js"></script>
+    <script src="./fonts/fontawesome-free/js/fontawesome.js"></script>
+  </head>
+  <body class="flex min-h-screen ">
+    <div class="fixed z-10 flex flex-col w-full min-h-screen transform -translate-x-full bg-white border-r border-black sidebar sm:w-72 xlg:translate-x-0 ">
+      <div class="flex items-center h-16 pl-2 border-b border-black">
+        <a href="/index.html"><img src="img/logo.png" alt="logo" class="h-10"></a>      
+      </div>
+      <div class="flex flex-col categories">
+        <div>
+          <h3>Красота</h3>
+          <ul>
+            <li><a href="#">Парикмахерские</a></li>
+            <li><a href="#">Услуги красоты</a></li>
+            <li><a href="#">Косметика для волос</a></li>
+            <li><a href="#">Парикмахеры</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Профессионал</h3>
+          <ul>
+            <li><a href="#">Курсы парикмахеров</a></li>
+            <li><a href="#">Учебные центры</a></li>
+            <li><a href="#">Преподаватели курсов</a></li>
+            <li><a href="#">Продукция для парикмахеров</a></li>
+            <li><a href="#">Моё обучение</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>B2B</h3>
+          <ul>
+            <li><a href="#">Свой бизнес</a></li>
+            <li><a href="./consultants.html">Бизнес-консультанты</a></li>
+            <li><a href="#">Бизнес-образование</a></li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Бонусы для салона</a></li>
+          </ul>
+        </div>
+        <a href="#" class="ml-6 text-xs sm:text-lg sm:mt-10">Управление</a>
+      </div>
+    </div>
+    <main class="flex flex-col flex-1 xlg:ml-72">
+      <div class="flex items-center justify-between w-full h-16 px-3 bg-white border-b border-black sm:px-11">
+        <button id="menuBtn" class="flex items-center justify-center hamburger focus:outline-none" >
+          <span class="hamburger__top-bun"></span><span class="hamburger__bottom-bun"></span>
+        </button>
+        <button class="w-20 border border-black h-9 bg-rose focus:outline-none"><span class="text-white">Вход</span></button>
+      </div>
+      <div class="flex flex-col px-1 py-5 md:px-5 xl:px-11 xl:py-9">
+        <nav class="sticky top-0 hidden py-5 bg-white sm:flex sm:py-0 sm:h-20 ">
+          <ul class="flex items-center justify-between w-full space-y-3 text-xl font-medium sm:space-y-0"> 
+            <li><a href="#">Салоны Красоты</a></li>
+            <li><a href="#">Услуги Красоты</a></li>
+            <li><a href="#">Купить Косметику</a></li>
+            <li><a href="#">Мастера Парикмахеры</a></li>
+            <li><a href="#">Переводы</a></li>
+          </ul>
+        </nav>
+        <ul class="flex justify-center space-x-3 text-lg sm:justify-start sm:space-x-1 mt-9">
+          <li><a href="#">Emi</a></li>
+          <li><span>/</span></li>
+          <li><a href="#">Бонусы</a></li>
+          <li><span>/</span></li>
+          <li><a href="#">Emi Pro</a></li>
+        </ul>
+        <h1 class="mt-2 text-4xl font-medium text-center sm:text-left">ПАРИКМАХЕРСКИЙ СЕРВИС ОКРАШИВАНИЕ ВОЛОС</h1>
+        <div class="flex flex-wrap gap-3 mt-5 filters">
+            <a href="#">Окрашивание Волос</a>
+            <a href="#">Услуги Ухода и Восстановления Волос</a>
+            <a href="#">Осветление Волос</a>
+            <a href="#">Продажа продукции для ухода за волосами дома</a>
+            <a href="#">Химическая завивка или услуга Выпрямления волос</a>
+        </div>
+        <div class="flex flex-col items-center text-center mt-14 md:items-start md:text-left">
+            <span class="text-3xl font-medium">По городам <span>Окрашивание Волос</span></span>
+            <div class="flex flex-col w-full mt-6 md:gap-y-2 boder">
+                <div class="flex flex-col items-center justify-between md:items-start md:flex-row">
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                </div>
+                <div class="flex flex-col items-center justify-between md:flex-row md:items-start">
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                </div>
+                <div class="flex flex-col items-center justify-between md:flex-row md:items-start">
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                </div>
+                <div class="flex flex-col items-center justify-between md:flex-row md:items-start">
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                </div>
+                <div class="flex flex-col items-center justify-between md:flex-row md:items-start">
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                    <a class="text-lg " href="#"><span class="font-medium">Москва</span> - <span>4393</span></a>
+                </div>                
+            </div>
+        </div>
+        <button class="flex items-center justify-center w-56 h-10 mx-auto border border-black rounded-sm hover:text-white hover:bg-black mt-7 md:ml-auto md:mx-0">Показать больше</button>
+      </div>
+    </main>
+
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
