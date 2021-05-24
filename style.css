@@ -20,6 +20,13 @@
     }
 }
 
+@media screen and (min-width: 640px) {
+    .card {
+        width: 490px;
+        height: 260px;
+    }
+}
+
 * {
     font-family: Gotham_Pro;
 }
@@ -94,3 +101,11 @@ transform:
 }
 
 /* HAMBURGER MENU END */
+
+.card {  
+    @apply flex flex-col justify-between p-6 border-2 border-black items-center sm:items-start 
+}
+
+.card:hover {
+    box-shadow: 10px 7px #F2DDDE;
+}

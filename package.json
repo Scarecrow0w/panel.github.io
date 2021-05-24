@@ -11,5 +11,8 @@
     "postcss": "^8.2.15",
     "tailwindcss": "^2.1.2",
     "vite": "^2.3.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
   }
 }
